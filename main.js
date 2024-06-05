@@ -13,14 +13,14 @@ for (let i = 0; i < element.length; i++) {
 
 //task3//
 
-let tags = document.getElementsByTagName(".wew")
+let tags = document.getElementsByTagName("p")
 for (let i in tags) {
     tags[i].innerHTML = "Paragraph Element";
 }
 
 //task4//
 
-let word = document.querySelector("#home")
+let word = document.querySelector("#highlight")
 word.innerHTML = "First Highlighted Item";
 
 //task5//
